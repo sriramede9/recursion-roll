@@ -13,9 +13,9 @@ public class endX {
 		}
 
 		if (str.charAt(0) == 'x' && str.length() > 1) {
-			System.out.println("we found pair");
+//			System.out.println("we found pair");
 
-			System.out.println(str.charAt(1) + "x");
+//			System.out.println(str.charAt(1) + "x");
 
 			return  endX(str.substring(1)) + "x";
 
