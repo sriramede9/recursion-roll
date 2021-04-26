@@ -11,9 +11,11 @@ public class Main {
 
 		System.out.println(a.foo());
 		System.out.println(b.foo());
+		System.out.println(b.fooB());
 		A ab = new B();
 		System.out.println(ab.foo());
-		
+//		System.out.println(ab.foo); we cannot
+
 		//
 //		System.out.println("Argument count: " + args.length);
 

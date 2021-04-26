@@ -2,7 +2,7 @@ package com.sri;
 
 public class A {
 
-	public static String foo() {
+	public String foo() {
 		return "a";
 	}
 
