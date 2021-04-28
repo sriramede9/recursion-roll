@@ -10,7 +10,7 @@ public class RecursionMain {
 		Count11 bu = new Count11();
 //		String bunnyEars = bu.noX("pix");
 //		int a[] = { 1, 2, 3, 6, 11, 11 };
-		int bunnyEars = bu.count11("1111");
+		int bunnyEars = bu.count11("1x11");
 		logger.info(bunnyEars + "");
 	}
 }
