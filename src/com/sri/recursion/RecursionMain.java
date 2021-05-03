@@ -7,10 +7,10 @@ public class RecursionMain {
 	private static Logger logger = Logger.getLogger("com.sri.recursion.RecursionMain");
 
 	public static void main(String[] args) {
-		CountHi2 bu = new CountHi2();
+		ParenBit bu = new ParenBit();
 //		String bunnyEars = bu.noX("pix");
 //		int a[] = { 1, 2, 3, 6, 11, 11 };
-		int bunnyEars = bu.countHi2("xhixhi");
+		String bunnyEars = bu.parenBit("(hello)x");
 		logger.info(bunnyEars + "");
 	}
 }
