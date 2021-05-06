@@ -4,8 +4,8 @@ public class StringMain {
 
 	public static void main(String[] args) {
 
-		CountHi dc = new CountHi();
-		int honeyBunny = dc.countHi("hihi");
+		CatDog dc = new CatDog();
+		boolean honeyBunny = dc.catDog("hicatdog");
 
 		System.out.println("" + honeyBunny);
 	}
