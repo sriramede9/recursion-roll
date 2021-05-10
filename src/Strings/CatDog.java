@@ -1,5 +1,8 @@
 package Strings;
 
+import java.util.List;
+import java.util.stream.Collectors;
+
 public class CatDog {
 	public boolean catDog(String str) {
 
@@ -16,5 +19,14 @@ public class CatDog {
 		}
 
 		return count == count2;
+	}
+
+	public List<Integer> doubling(List<Integer> nums) {
+
+		return nums.stream().map(x -> x * x).collect(Collectors.toList());
+	}
+
+	public List<String> noX(List<String> strings) {
+		return strings.stream().map(x -> x.replace("x", "")).collect(Collectors.toList());
 	}
 }
