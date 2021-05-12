@@ -4,8 +4,8 @@ public class StringMain {
 
 	public static void main(String[] args) {
 
-		CountCode dc = new CountCode();
-		int honeyBunny = dc.countCode("aaacodebbb");
+		EndOther dc = new EndOther();
+		boolean honeyBunny = dc.endOther("AbC", "HiaBc");
 
 		System.out.println("" + honeyBunny);
 	}
