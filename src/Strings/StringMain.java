@@ -4,8 +4,8 @@ public class StringMain {
 
 	public static void main(String[] args) {
 
-		EndOther dc = new EndOther();
-		boolean honeyBunny = dc.endOther("AbC", "HiaBc");
+		XyzThere  dc = new XyzThere ();
+		boolean honeyBunny = dc.xyzThere("abc.xyzxyz");
 
 		System.out.println("" + honeyBunny);
 	}
