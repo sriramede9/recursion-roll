@@ -4,16 +4,21 @@ public class XyzThere {
 
 	public boolean xyzThere(String str) {
 		
-//	for(int i=0;i<=str.length()-4;i++) {
-//		System.out.println(str.substring(i,i+4));
-//	}
-		
 		if(str.contains(".xyz")) {
-			int indexOf = str.indexOf(".xyz");
+			int indexOf = str.lastIndexOf(".xyz");
 			
-			if(str.length())
+//			System.out.println(str.substring(indexOf+4));
 			
-			System.out.println(str.substring(indexOf+4));
+			if(str.length()>indexOf+4 && str.substring(indexOf+4).contains("xyz")) {
+				return true;
+			}
+			
+			return false;
+			
+		}
+		
+		if(str.contains("xyz")){
+		  return true;
 		}
 
 		return false;
