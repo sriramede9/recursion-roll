@@ -4,8 +4,8 @@ public class StringMain {
 
 	public static void main(String[] args) {
 
-		BobThere dc = new BobThere();
-		boolean honeyBunny = dc.bobThere("bod");
+		MixString dc = new MixString();
+		String honeyBunny = dc.mixString("Hi", "There");
 
 		System.out.println("" + honeyBunny);
 	}
